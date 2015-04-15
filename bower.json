@@ -1,0 +1,21 @@
+{
+  "name": "divinPrototype",
+  "version": "0.0.1",
+  "authors": [
+    "tiemo.hunger <tiemo.hunger@sidenis.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riotjs": "~2.0.14",
+    "d3": "~3.5.5"
+  }
+}

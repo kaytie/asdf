@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "riotjs": "~2.0.14",
-    "d3": "~3.5.5"
+    "d3": "~3.5.5",
+    "bootstrap-material-design": "~0.3.0",
+    "bootstrap": "~3.3.4"
   }
 }

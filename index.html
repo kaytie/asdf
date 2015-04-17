@@ -19,6 +19,12 @@
         <i class="large mdi-editor-mode-edit"></i>
     </a>
     <ul>
+        <li>
+
+
+
+        </li>
+
         <li><a class="btn-floating red"><i class="large mdi-editor-insert-chart"></i></a></li>
         <li><a class="btn-floating yellow darken-1"><i class="large mdi-editor-format-quote"></i></a></li>
         <li><a class="btn-floating green"><i class="large mdi-editor-publish"></i></a></li>
@@ -30,15 +36,20 @@
 
     <div class="nav-wrapper #e1f5fe #42a5f5 blue lighten-1">
 
-        <a href="#" class="brand-logo left"><img src="logoD.png" alt="logo" width="50%"/> </a>
+        <a href="#" class="brand-logo left"><img src="logoD.png" alt="logo" width="50%"/></a>
+
         <ul id="nav-mobile" class="right">
 
-            <li><a href="#" class="mdi-action-settings">link</a></li>
+            <li><a href="#" class="mdi-action-settings"></a></li>
+            <li><a href="#" class="mdi-action-help"></a></li>
+
         </ul>
         </div>
+
 </nav>
 
 <div class="row">
+
        <div class="col s12 m4 l3 ">
             <div class="row">
                 <div class="input-field">
@@ -88,10 +99,10 @@
     var scope ={};
 
     functionPlot({
-        width:1500,
-        height:350,
+
         target: '#canvas',
         data: [{
+
             fn: function (x) {
                 return jStat.beta.cdf(x,10,20);
             }
